@@ -25,6 +25,8 @@ permalink: /
 
 En nuestro mini blog, encontrarás una emocionante mezcla de noticias de actualidad y lo último en el mundo de la música. ¡Sumérgete en historias fascinantes y descubre nuevos artistas y tendencias musicales!
 
+![portada](assets/img/portada.jpg)
+
 ## Secciones:
 
 1. **Noticias de Actualidad**
