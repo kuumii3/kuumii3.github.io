@@ -1,5 +1,8 @@
-#theme: minimal-mistakes-jekyll
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+title: Modernist theme
+description: Modernist is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-modernist
 
 minimal_mistakes_skin: "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
