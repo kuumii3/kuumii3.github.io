@@ -1,9 +1,9 @@
-title: Minimal theme
+title: Merlot theme
 logo: /assets/img/logo.jpg
-description: Minimal is a theme for GitHub Pages.
+description: Merlot is a theme for GitHub Pages.
 show_downloads: true
 google_analytics:
-theme: jekyll-theme-minimal
+theme: jekyll-theme-merlot
 
 minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
