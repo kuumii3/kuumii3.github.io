@@ -9,7 +9,7 @@ tags: notas,aboutme
 
 ---
 
-# About me <3>
+## About me <3
 
 Soy Xio
 Me gustan las Fresas

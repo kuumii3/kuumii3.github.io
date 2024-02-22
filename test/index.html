@@ -3,8 +3,85 @@ layout: home
 title: test
 
 ---
-<h1>  HOLA MUNDO </h1>
+{% extends "base.html" %}
+{% block title %}Movimientos de la Vanguardia{% endblock %}
 
-que tal
 
-pagina web encontrada
+{% block content %}
+
+<section class="section" id="fotografia">
+    <h1 class="titulillos-moda">Movimientos Destacados</h1>
+  <div class="fotografias">
+      <div id="impresionismo" class="owl-theme">    
+            <h4 class="titulillos-foto">IMPRESIONISMO</h4><br>
+            <p class="uwuwhite">El impresionismo pictórico, surgido en la década de 1870 en Francia, marcó una ruptura significativa con las convenciones artísticas establecidas hasta entonces. Este movimiento, caracterizado por su enfoque en la captura de la luz y la atmósfera a través de técnicas como pinceladas sueltas y el uso de colores vibrantes, buscaba transmitir la impresión visual de un momento más que una representación precisa y detallada de la realidad.
+            </p>
+            <p class="uwuwhite">Los artistas impresionistas, entre ellos destacados nombres como Claude Monet, Pierre-Auguste Renoir, Edgar Degas y Camille Pissarro, exploraron temas diversos, desde paisajes y escenas urbanas hasta retratos y situaciones de la vida cotidiana. La elección de pintar al aire libre, en lugar de los estudios tradicionales, permitió a estos artistas capturar la luz cambiante y los efectos atmosféricos con una frescura y vitalidad antes no experimentada en la pintura.
+            </p>
+            <img src="{{ url_for('static', filename='images/imp1.jpg') }}" alt="col2" class="box-shadow" width="300" height="300"/>
+            <img src="{{ url_for('static', filename='images/imp2.jpg') }}" alt="col2" class="box-shadow" width="300" height="300"/>
+            <img src="{{ url_for('static', filename='images/imp3.jpg') }}" alt="col2" class="box-shadow" width="300" height="300"/>
+        </div>
+      <br>    
+
+      <div id="cubismo" class="owl-theme">
+          <h4 class="titulillos-foto">CUBISMO</h4><br>
+          <p class="uwuwhite">El cubismo fue un movimiento artístico que se desarrolló principalmente entre 1907 y 1914, aunque sus influencias y legados continuaron mucho después. Fue iniciado por los artistas Georges Braque y Pablo Picasso. El cubismo revolucionó la representación visual al romper con las convenciones tradicionales de la perspectiva y la representación tridimensional.
+          </p>
+          <p class="uwuwhite">Se caracteriza por la representación de objetos y figuras desde múltiples puntos de vista simultáneos, descomponiendo las formas en fragmentos geométricos y abstrayendo la realidad. Hay dos fases principales del cubismo: el "cubismo analítico", que se centra en la fragmentación y análisis de las formas, y el "cubismo sintético", que incorpora elementos de collage y reintroduce cierta figuración.
+          </p>
+          <p class="uwuwhite">Tuvo un impacto significativo en el desarrollo del arte moderno y abrió el camino para otras corrientes artísticas del siglo XX.
+          </p>
+          <img src="{{ url_for('static', filename='images/cub1.jpg') }}" alt="col2" class="box-shadow" width="300" height="300"/>
+          <img src="{{ url_for('static', filename='images/cub2.jpg') }}" alt="col2" class="box-shadow" width="300" height="300"/>
+          <img src="{{ url_for('static', filename='images/cub3.jpg') }}" alt="col2" class="box-shadow" width="300" height="300"/>
+      </div>
+      <br>    
+      <div id="expresionismo" class="owl-theme">    
+          <h4 class="titulillos-foto">EXPRESIONISMO</h4><br>
+          <p class="uwuwhite">El expresionismo en la pintura surgió a principios del siglo XX y se desarrolló principalmente durante las primeras décadas del siglo. Su auge se sitúa aproximadamente entre 1905 y 1930. Este movimiento artístico buscaba expresar emociones intensas y representar la realidad subjetiva a través de colores vívidos, formas distorsionadas y pinceladas expresivas.</p>                    
+          <p class="uwuwhite">Artistas como Edvard Munch, Ernst Ludwig Kirchner, Emil Nolde y Egon Schiele fueron importantes exponentes del expresionismo. El expresionismo influyó no solo en la pintura, sino también en otras formas de arte como la literatura, el cine y la arquitectura.</p>                    
+          <img src="{{ url_for('static', filename='images/exp1.jpg') }}" alt="col2" class="box-shadow" width="300" height="300"/>
+          <img src="{{ url_for('static', filename='images/exp2.jpg') }}" alt="col2" class="box-shadow" width="300" height="300"/>
+          <img src="{{ url_for('static', filename='images/exp3.png') }}" alt="col2" class="box-shadow" width="300" height="300"/>
+      </div>
+      <br>               
+      <div id="dadaismo" class="owl-theme">    
+          <h4 class="titulillos-foto">DADAÍSMO</h4><br>
+          <p class="uwuwhite">El dadaísmo fue un movimiento artístico y cultural que surgió durante la Primera Guerra Mundial, específicamente en Zúrich, Suiza, alrededor de 1916. Se caracterizó por un enfoque radicalmente antiartístico y antiestablecimiento. Los artistas dadaístas buscaban subvertir las convenciones tradicionales del arte y la sociedad, abogando por el absurdo, la irreverencia y la provocación.
+          </p>
+          <p class="uwuwhite">Los dadaístas rechazaban las normas establecidas y creían en la destrucción creativa como medio para liberar la creatividad. Utilizaban collages, poesía fonética, performances y manifestaciones artísticas disruptivas para expresar su descontento y su deseo de cuestionar la lógica y la razón.
+          </p>
+          <p class="uwuwhite">Figuras clave del dadaísmo incluyen a Tristan Tzara, Marcel Duchamp, Hans Arp y Sophie Taeuber-Arp. Aunque el dadaísmo no perduró mucho tiempo como movimiento formal, su influencia fue duradera y tuvo un impacto significativo en el desarrollo del arte contemporáneo.
+          </p>
+          <img src="{{ url_for('static', filename='images/dad1.jpg') }}" alt="col2" class="box-shadow" width="300" height="300"/>
+          <img src="{{ url_for('static', filename='images/dad2.jpg') }}" alt="col2" class="box-shadow" width="300" height="300"/>
+          <img src="{{ url_for('static', filename='images/dad3.jpg') }}" alt="col2" class="box-shadow" width="300" height="300"/>
+      </div>
+      <br>   
+      <div id="fauvismo" class="owl-theme">    
+        <h4 class="titulillos-foto">FAUVISMO</h4><br>
+        <p class="uwuwhite">El fauvismo fue un movimiento artístico que también se desarrolló en las primeras décadas del siglo XX, específicamente alrededor de 1905 y 1907. Fue un breve pero influyente período en la historia del arte. Los artistas fauvistas buscaban la expresión emocional a través del color vibrante y la simplificación de las formas. Utilizaban colores intensos y no realistas para transmitir sensaciones y emociones, liberándose de las limitaciones de la representación fiel de la realidad.        </p>
+        <p class="uwuwhite">Henri Matisse y André Derain fueron dos figuras clave del fauvismo. Aunque el movimiento fue efímero, su impacto perduró y sentó las bases para la exploración más radical del color y la forma en el arte moderno.</p>
+        <img src="{{ url_for('static', filename='images/fau1.jpg') }}" alt="col2" class="box-shadow" width="300" height="300"/>
+        <img src="{{ url_for('static', filename='images/fau2.jpg') }}" alt="col2" class="box-shadow" width="300" height="300"/>
+        <img src="{{ url_for('static', filename='images/fau3.jpg') }}" alt="col2" class="box-shadow" width="300" height="300"/>
+  </div>
+    <br>   
+    <div id="surrealismo" class="owl-theme">    
+        <h4 class="titulillos-foto">SURREALISMO</h4><br>
+        <p class="uwuwhite">El surrealismo pictórico es una rama específica del movimiento surrealista que se centra en la expresión visual de las ideas surrealistas. Surgió principalmente en la década de 1920 y se desarrolló durante las décadas siguientes. Los artistas surrealistas pictóricos buscaban plasmar en sus obras la realidad de los sueños, el inconsciente y lo irracional.
+        </p>
+        <p class="uwuwhite">Las pinturas surrealistas a menudo presentan paisajes oníricos, figuras metamórficas, elementos simbólicos y composiciones que desafían la lógica convencional. Los artistas utilizaron técnicas como la pintura automática y el collage para liberar su creatividad y explorar el subconsciente.
+        </p>
+        <p class="uwuwhite">Algunos de los pintores surrealistas más destacados incluyen a Salvador Dalí, René Magritte, Max Ernst, Joan Miró y Yves Tanguy. Cada uno de ellos aportó su enfoque único al surrealismo, contribuyendo a la diversidad y riqueza de esta corriente artística.
+        </p>
+        <img src="{{ url_for('static', filename='images/sur1.jpg') }}" alt="col2" class="box-shadow" width="300" height="300"/>
+        <img src="{{ url_for('static', filename='images/sur2.jpg') }}" alt="col2" class="box-shadow" width="300" height="300"/>
+        <img src="{{ url_for('static', filename='images/sur3.jpg') }}" alt="col2" class="box-shadow" width="300" height="300"/>
+      </div>
+    <br>   
+  </div>
+</section>
+    <a href="{{ url_for('rutas_artistas.verArtistas') }}">Test</a>
+{% endblock %}
