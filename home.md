@@ -34,11 +34,11 @@ En nuestro mini blog, encontrarás una emocionante mezcla de noticias de actuali
 
 ## Destacados:
 
-- *Noticias Locales y Globales*: Mantente al tanto de los eventos más importantes que están ocurriendo cerca de ti y en todo el mundo.
+- **Noticias Locales y Globales**: Mantente al tanto de los eventos más importantes que están ocurriendo cerca de ti y en todo el mundo.
 
 - **Nuevos Lanzamientos**: Descubre reseñas detalladas de los últimos álbumes y sencillos que están causando sensación en la escena musical.
 
-- *Entrevistas Exclusivas*: Conoce a tus artistas favoritos y descubre lo que los inspira en entrevistas íntimas y reveladoras.
+- **Entrevistas Exclusivas**: Conoce a tus artistas favoritos y descubre lo que los inspira en entrevistas íntimas y reveladoras.
 
-¡Esperamos que disfrutes explorando nuestro mini blog y te mantengas al día con las últimas noticias y tendencias musicales!
+*¡Esperamos que disfrutes explorando nuestro mini blog y te mantengas al día con las últimas noticias y tendencias musicales!*
 
