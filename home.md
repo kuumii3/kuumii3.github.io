@@ -21,40 +21,24 @@ permalink: /
   {% endfor %}
 </ul>
 
-You can use the [editor on GitHub](https://github.com/oscarnovillo/oscarnovillo.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+# Bienvenido al Mini Blog de Noticias y Música
 
+En nuestro mini blog, encontrarás una emocionante mezcla de noticias de actualidad y lo último en el mundo de la música. ¡Sumérgete en historias fascinantes y descubre nuevos artistas y tendencias musicales!
 
-### Markdown
+## Secciones:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. **Noticias de Actualidad**
+2. **Reseñas de Álbumes**
+3. **Entrevistas con Artistas**
+4. **Descubrimientos Musicales**
 
-```markdown
-Syntax highlighted code block
+## Destacados:
 
-# Header 1
-## Header 2
-### Header 3
+- *Noticias Locales y Globales*: Mantente al tanto de los eventos más importantes que están ocurriendo cerca de ti y en todo el mundo.
 
-- Bulleted
-- List
+- **Nuevos Lanzamientos**: Descubre reseñas detalladas de los últimos álbumes y sencillos que están causando sensación en la escena musical.
 
-1. Numbered
-2. List
+- *Entrevistas Exclusivas*: Conoce a tus artistas favoritos y descubre lo que los inspira en entrevistas íntimas y reveladoras.
 
-**Bold** and _Italic_ and `Code` text
-[Link](url) and ![Image]({{ site.url }}/test/index.html)
+¡Esperamos que disfrutes explorando nuestro mini blog y te mantengas al día con las últimas noticias y tendencias musicales!
 
-[Link](url) and ![Image]({{ site.url }}/assets/img/logo-Jekyll.png)
-```
-
-![Image](/assets/img/logo-jekyll.png)
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/oscarnovillo/oscarnovillo.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
