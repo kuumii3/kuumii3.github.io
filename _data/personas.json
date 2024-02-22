@@ -1,10 +1,34 @@
-[
-    { "nombre": "Ana", "edad": 19, "sexo": "F" },
-    { "nombre": "Pedro", "edad": 32, "sexo": "M" },
-    { "nombre": "Pablo", "edad": 27, "sexo": "M" },
-    { "nombre": "Laura", "edad": 22, "sexo": "F" },
-    { "nombre": "Javier", "edad": 17, "sexo": "M" },
-    { "nombre": "Sandra", "edad": 28, "sexo": "F" },
-    { "nombre": "Mario", "edad": 24, "sexo": "M" },
-    { "nombre": "Julia", "edad": 41, "sexo": "F"}
-]
+{
+    "albumes": [
+      {
+        "nombre": "Starina",
+        "year_lanzamiento": 2022,
+        "numero_canciones": 13,
+        "genero_musical": "Alternativa"
+      },
+      {
+        "nombre": "KOR KOR LAKE",
+        "year_lanzamiento": 2022,
+        "numero_canciones": 12,
+        "genero_musical": "Hyperpop"
+      },
+      {
+        "nombre": "Grandes Hits",
+        "year_lanzamiento": 2021,
+        "numero_canciones": 12,
+        "genero_musical": "Neopop"
+      }
+      {
+        "nombre": "Roku Roku",
+        "year_lanzamiento": 2021,
+        "numero_canciones": 13,
+        "genero_musical": "Hyperpop"
+      }
+      {
+        "nombre": "Y3Y",
+        "year_lanzamiento": 2020,
+        "numero_canciones": 6,
+        "genero_musical": "Hyperpop"
+      }
+    ]
+  }
