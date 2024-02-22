@@ -1,17 +1,21 @@
 ---
-title: about
-permalink: /juju
-layout: asdasdasdasd
+title: About me <3
+permalink: /aboutme
+layout: post
 
 date: 2024-10-10
-author: juan
-tags: juegos,mierda
+author: kuumii3
+tags: notas,aboutme
 
 ---
 
-# TITULO
+# About me <3>
 
-Contenido del about
+Soy Xio
+Me gustan las Fresas
+Tengo Sueño
+Me gusta el color rosa 
+Mi flor favorita es la orquídea
 
-hola danielo
+Adiós.
 
