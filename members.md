@@ -3,7 +3,7 @@ title: Discografía Rojuu
 
 ---
 
-# Members
+# Discografía Rojuu
 
 
 {% for member in site.members %}
@@ -14,5 +14,5 @@ title: Discografía Rojuu
 
 
 {% for persona in site.data.personas %}
-  ## Nombre: {{ persona.nombre }} - Año: {{ persona.year }} - Canciones {{ persona.canciones }}
+  # Nombre: {{ persona.nombre }} - Año: {{ persona.year }} - Canciones {{ persona.canciones }}
 {% endfor %}
