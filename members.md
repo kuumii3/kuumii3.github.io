@@ -1,5 +1,5 @@
 ---
-title: members
+title: Discografía Rojuu
 
 ---
 
@@ -14,5 +14,5 @@ title: members
 
 
 {% for persona in site.data.personas %}
-  ## Nombre {{ persona.nombre }} - Año {{ persona.year }} - Canciones {{ persona.canciones }}
+  ## Nombre: {{ persona.nombre }} - Año: {{ persona.year }} - Canciones {{ persona.canciones }}
 {% endfor %}
