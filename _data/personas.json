@@ -1,10 +1,10 @@
 [
-    { "nombre": "Starina", "edad": 2022, "sexo": "13" },
-    { "nombre": "KOR KOR LAKE", "edad": 2022, "sexo": "12" },
-    { "nombre": "Grandes Hits (Antes de los 18)", "edad": 2021, "sexo": "12" },
-    { "nombre": "Roku Roku", "edad": 2021, "sexo": "13" },
-    { "nombre": "Y3Y", "edad": 2020, "sexo": "6" },
-    { "nombre": "OOO", "edad": 2020, "sexo": "11" },
-    { "nombre": "Children of God", "edad": 2019, "sexo": "10" },
-    { "nombre": "Cotard Delusion", "edad": 2018, "sexo": "8"}
+    { "nombre": "Starina", "year": 2022, "canciones": "13" },
+    { "nombre": "KOR KOR LAKE", "year": 2022, "canciones": "12" },
+    { "nombre": "Grandes Hits (Antes de los 18)", "year": 2021, "canciones": "12" },
+    { "nombre": "Roku Roku", "year": 2021, "canciones": "13" },
+    { "nombre": "Y3Y", "year": 2020, "canciones": "6" },
+    { "nombre": "OOO", "year": 2020, "canciones": "11" },
+    { "nombre": "Children of God", "year": 2019, "canciones": "10" },
+    { "nombre": "Cotard Delusion", "year": 2018, "canciones": "8"}
 ]
