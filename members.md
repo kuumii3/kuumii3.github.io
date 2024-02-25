@@ -14,5 +14,5 @@ title: members
 
 
 {% for persona in site.data.personas %}
-  ## Nombre {{ persona.nombre }} - Año {{ persona.year }}
+  ## Nombre {{ persona.nombre }} - Año {{ persona.year }} - Canciones {{ persona.canciones }}
 {% endfor %}
